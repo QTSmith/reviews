@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<title>Hairless Hunnies</title>
+
+</head>
+<body>
+<h1>Naked Animal Reviews</h1>
+
+<img th:src="${onereview.imageUrl}"/>
+
+<p th:text="'Id: ' + ${onereview.id}"></p>
+<p th:text="'Breed: ' + ${onereview.breed}"></p>
+<p th:text="'Cuteness Level: ' + ${onereview.cuteness}"></p>
+<p th:text="'Opinion: ' + ${onereview.opinion}"></p>
+<p th:text="'Fun Facts: ' + ${onereview.getFunFacts()}"></p>
+
+</body>
+</html>

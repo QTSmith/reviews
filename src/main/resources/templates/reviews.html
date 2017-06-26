@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<title>Hairless Hunnies</title>
+	<link rel="stylesheet" type="text/css" href="/css/style.css"></link>
+</head>
+<body>
+
+ <nav class="title">
+ 	<img src="/images/titlepic.jpg"></img>
+ </nav>
+  <div class="header">
+  	<header>
+  	<h1>*Naked Animal Reviews*</h1></header>
+    <main class="themeat">
+    <article><a th:each="review: ${reviewsAsCollection}" th:href="@{http://localhost:8080/onereview/(id=${review.id})}"><div th:text="${review.breed}" ></div></a></article>
+    <div></div>
+    </main>
+  	<footer></footer>
+  </div>
+
+
+
+
+
+</body>
+</html>

@@ -2,6 +2,7 @@
 <classpath>
 	<classpathentry path="bin" kind="output"/>
 	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/main/resources"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8/"/>
 	<classpathentry sourcepath="C:/Users/WeCanCodeIT/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-thymeleaf/1.5.2.RELEASE/8a6d189f717e947a3a282c74dee57a6b8f1ce0a1/spring-boot-starter-thymeleaf-1.5.2.RELEASE-sources.jar" kind="lib" path="C:/Users/WeCanCodeIT/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-thymeleaf/1.5.2.RELEASE/f72002abba821b4b7bf6f32afac33b526607c2af/spring-boot-starter-thymeleaf-1.5.2.RELEASE.jar"/>
 	<classpathentry sourcepath="C:/Users/WeCanCodeIT/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-devtools/1.5.2.RELEASE/7f7bb8033a8a38c7aebcac2de41857b1d654252d/spring-boot-devtools-1.5.2.RELEASE-sources.jar" kind="lib" path="C:/Users/WeCanCodeIT/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-devtools/1.5.2.RELEASE/c765d6b85bdbf11b8f2324e21621fc16685682cb/spring-boot-devtools-1.5.2.RELEASE.jar"/>

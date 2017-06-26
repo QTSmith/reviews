@@ -1,0 +1,38 @@
+{
+    box-sizing: border-box; 
+  }
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
+    margin: 0;
+  }
+  .title {
+    background: blue;
+    flex: 1;
+
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+  }
+  .themeat {
+    display: flex;
+    flex-direction: row;
+  }
+  .themeat > article {
+    flex: 3;
+    min-height: 60vh;
+  }
+  .themeat > aside {
+    background: beige;
+    flex: 1;
+  }
+  header, footer {
+    background: gold;
+    height: 20vh;
+  }
+  header, footer, article, nav, aside {
+    padding: 1em;
+  }

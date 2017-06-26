@@ -12,8 +12,7 @@ public class Review {
 	private String tag;
 
 	// Constructor
-	public Review(long id, String breed, String imageUrl, String cuteness, String opinion, String funfacts,
-			String tag) {
+	public Review(long id, String breed, String imageUrl, String cuteness, String opinion, String funfacts,	String tag) {
 		this.id = id;
 		this.breed = breed;
 		this.imageUrl = imageUrl;
@@ -29,7 +28,7 @@ public class Review {
 		return id;
 	}
 
-	public String getTitle() {
+	public String getBreed() {
 		return breed;
 	}
 
